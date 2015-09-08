@@ -1,0 +1,17 @@
+<?php
+
+$config = array(
+    // required credentials
+
+    'host'       => 'localhost',
+    'user'       => 'user',
+    'password'   => 'pass',
+    'database'   => 'db',
+
+    // optional
+
+    'fetchMode'  => \PDO::FETCH_ASSOC,
+    'charset'    => 'utf8',
+    'port'       => 3306,
+    'unixSocket' => null,
+);

@@ -1,0 +1,7 @@
+{
+    "require": {
+	            "mandrill/mandrill": "1.0.*",
+			    "vlucas/phpdotenv": "^2.0",
+			    "simplon/mysql": "^0.7.0"
+		        }
+}
