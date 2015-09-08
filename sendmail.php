@@ -56,7 +56,7 @@ function sendEmail($email, $sqlManager)
     $mandrill = new Mandrill(getenv('APP_KEY'));
     $message = array(
         'html' => file_get_contents('newsletter.html', true),
-        'subject' => 'Promotia Canon Back to school',
+        'subject' => 'Promotia Canon Back to school a inceput!',
         'from_email' => 'office@canon.ro',
         'from_name' => 'Canon Romania',
         'to' => array(
